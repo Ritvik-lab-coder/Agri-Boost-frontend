@@ -1,0 +1,39 @@
+.dashboard {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    font-size: 80px;
+}
+
+.title-special {
+    color: #56ab2f;
+}
+
+.right-side {
+    width: 80vw;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.farmer {
+    height: 600px;
+    animation: moveUpDown 1s infinite alternate ease-in-out;
+    transform: scaleX(-1);
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}

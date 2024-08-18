@@ -1,0 +1,13 @@
+.users {
+    background-color: #56ab2f !important;
+    text-align: center;
+}
+
+.table-side {
+    width: 80vw;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}

@@ -1,0 +1,10 @@
+.navbar {
+    background: linear-gradient(to right, #56ab2f, #a8e063, #f9d423);
+    z-index: 100;
+}
+
+.nav-logo {
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}

@@ -1,0 +1,42 @@
+.cart-page {
+    max-width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.image-container {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.item-details {
+    width: 70%;
+}
+
+.item-details h2 {
+    margin-top: 0;
+}
+
+.item-details p {
+    margin-bottom: 10px;
+}
